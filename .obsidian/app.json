@@ -1,1 +1,10 @@
-{}
+{
+  "promptDelete": false,
+  "attachmentFolderPath": "./",
+  "userIgnoreFilters": [
+    "*.xml",
+    "*.iml",
+    ".obsidian/*"
+  ],
+  "newFileLocation": "current"
+}

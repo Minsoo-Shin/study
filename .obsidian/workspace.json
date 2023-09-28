@@ -4,18 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "c6e88fec6cbacc1c",
+        "id": "bdf341d254b44ff2",
         "type": "tabs",
         "children": [
           {
-            "id": "ea12ac67662cf8b9",
+            "id": "5abed09e2ed95c12",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 메모리.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e87f614ed47df63f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 입력과 출력.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4dd1d31ed23702b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 중앙 처리 장치.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 중앙 처리 장치.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 중앙 처리 장치.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제 파일.md"
+                "file": "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 중앙 처리 장치.md"
               }
             }
           }
@@ -140,8 +171,25 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1cce26df085a3856",
+  "active": "b4dd1d31ed23702b",
   "lastOpenFiles": [
-    "무제 파일.md"
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/Pasted image 20230928031755.png",
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 입력과 출력.md",
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 중앙 처리 장치.md",
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 메모리.md",
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/Pasted image 20230928023507.png",
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/Pasted image 20230928023447.png",
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/Pasted image 20230928013426.png",
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/Pasted image 20230927235824.png",
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/Pasted image 20230927235858.png",
+    "무제 파일.canvas",
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/data_type_struct_memory_addr.go",
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/data_type_memory_addr.go",
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/memory_bus.go",
+    "Pasted image 20230927231538.png.md",
+    "Pasted image 20230927231513.png.md",
+    "cs.md",
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍",
+    "cs"
   ]
 }
