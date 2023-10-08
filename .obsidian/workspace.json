@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "0240c23f4ea405c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "spring/keyword.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "dad3097f2c826215",
             "type": "leaf",
             "state": {
@@ -62,6 +50,18 @@
               "type": "markdown",
               "state": {
                 "file": "spring/스프링 핵심 원리 - 기본편/DIP는 어떻게 지켜질 수있을까?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "06eb10f156a825f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "spring/스프링 핵심 원리 - 기본편/스프링 컨테이너.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTimeReverse"
               }
             }
           },
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "spring/스프링 핵심 원리 - 기본편/DIP는 어떻게 지켜질 수있을까?.md",
+                "file": "spring/스프링 핵심 원리 - 기본편/스프링 컨테이너.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "spring/스프링 핵심 원리 - 기본편/DIP는 어떻게 지켜질 수있을까?.md",
+                "file": "spring/스프링 핵심 원리 - 기본편/스프링 컨테이너.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "spring/스프링 핵심 원리 - 기본편/DIP는 어떻게 지켜질 수있을까?.md"
+                "file": "spring/스프링 핵심 원리 - 기본편/스프링 컨테이너.md"
               }
             }
           }
@@ -195,13 +195,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "abfe92f19eb7457a",
+  "active": "1cce26df085a3856",
   "lastOpenFiles": [
-    "spring/스프링 핵심 원리 - 기본편/객체 지향과 좋은 객체 지향 설계 5가지 원칙.md",
-    "spring/스프링 핵심 원리 - 기본편/DIP는 어떻게 지켜질 수있을까?.md",
-    "spring/keyword.md",
-    "spring/스프링 핵심 원리 - 기본편",
+    "spring/스프링 핵심 원리 - 기본편/IoC, DI 그리고 컨테이너.md",
+    "spring/스프링 핵심 원리 - 기본편/스프링 컨테이너.md",
     "spring/객체 지향.md",
+    "spring/스프링 핵심 원리 - 기본편/객체 지향과 좋은 객체 지향 설계 5가지 원칙.md",
+    "spring/keyword.md",
+    "spring/스프링 핵심 원리 - 기본편/Pasted image 20231007131005.png",
+    "spring/스프링 핵심 원리 - 기본편/Pasted image 20231007130829.png",
+    "spring/스프링 핵심 원리 - 기본편/DIP는 어떻게 지켜질 수있을까?.md",
+    "spring/스프링 핵심 원리 - 기본편",
     "kotlin/keyword/visibility modifiers (가시성 수정자).md",
     "spring",
     "README.md",
@@ -234,7 +238,6 @@
     "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/Pasted image 20230928023447.png",
     "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/Pasted image 20230928013426.png",
     "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/Pasted image 20230927235824.png",
-    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/Pasted image 20230927235858.png",
     "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/data_type_struct_memory_addr.go",
     "Pasted image 20230927231538.png.md",
     "Pasted image 20230927231513.png.md"

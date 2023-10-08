@@ -6,5 +6,6 @@
     "*.iml",
     ".obsidian/*"
   ],
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true
 }
