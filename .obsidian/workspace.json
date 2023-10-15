@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "spring/스프링 핵심 원리 - 기본편/싱글톤.md",
+                "file": "검색/쇼핑 검색 랭킹 구성 요소.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "spring/스프링 핵심 원리 - 기본편/싱글톤.md",
+                "file": "검색/쇼핑 검색 랭킹 구성 요소.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "spring/스프링 핵심 원리 - 기본편/싱글톤.md",
+                "file": "검색/쇼핑 검색 랭킹 구성 요소.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "spring/스프링 핵심 원리 - 기본편/싱글톤.md"
+                "file": "검색/쇼핑 검색 랭킹 구성 요소.md"
               }
             }
           }
@@ -161,11 +161,17 @@
   },
   "active": "75539576a2d0d0ca",
   "lastOpenFiles": [
+    "검색/사용자 검색 로그 저장.md",
+    "검색/쇼핑 검색 랭킹 구성 요소.md",
+    "image/Pasted image 20231012231213.png",
+    "spring/스프링 핵심 원리 - 기본편/싱글톤.md",
+    "spring/스프링 핵심 원리 - 기본편/무제 파일.md",
+    "spring/스프링 핵심 원리 - 기본편/무제 파일 1.md",
+    "검색",
     "image/Pasted image 20231010235441.png",
     "image/Pasted image 20231010003821.png",
     "image/Pasted image 20231009230619.png",
     "spring/스프링 핵심 원리 - 기본편/Bean Factory 와 Application Context.md",
-    "spring/스프링 핵심 원리 - 기본편/싱글톤.md",
     "kotlin/keyword/visibility modifiers (가시성 수정자).md",
     "spring/객체 지향.md",
     "spring/스프링 핵심 원리 - 기본편/객체 지향과 좋은 객체 지향 설계 5가지 원칙.md",
@@ -194,19 +200,12 @@
     "proto/여행경비 계산/plan.md",
     "kotlin/keyword/entity.md",
     "kotlin/keyword/data class.md",
-    "kotlin/keyword/Modules (모듈).md",
     "kotlin/keyword",
     "kotlin",
     "proto/여행경비 계산/Pasted image 20230929210807.png",
     "proto/무제 폴더",
     "proto/여행경비 계산/Pasted image 20230929210029.png",
-    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 입력과 출력.md",
-    "proto/여행경비 계산/Pasted image 20230929210041.png",
-    "proto/chat/chat application.md",
     "proto/여행경비 계산",
-    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 중앙 처리 장치.md",
-    "proto/chat",
-    "무제 파일.canvas",
-    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/Pasted image 20230928031755.png"
+    "무제 파일.canvas"
   ]
 }
