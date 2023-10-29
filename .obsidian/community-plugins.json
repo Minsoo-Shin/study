@@ -1,1 +1,6 @@
-[]
+[
+  "cm-editor-syntax-highlight-obsidian",
+  "highlightr-plugin",
+  "obsidian-embedded-code-title",
+  "code-emitter"
+]

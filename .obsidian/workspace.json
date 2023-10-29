@@ -4,22 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "86929e36a60f0952",
+        "id": "fd3a2bd7838c13b9",
         "type": "tabs",
         "children": [
           {
-            "id": "a665c8be1ee6dda2",
+            "id": "7abf275e00ff45de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "카프카/더티 페이지 (dirty page).md",
+                "file": "카프카/공부할 키워드.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7da0ad7ff67aa155",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "카프카/프로듀서의 내부 동작 원리와 구현.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -38,7 +52,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTimeReverse"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -69,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c46281a6b72018b2",
@@ -85,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "카프카/더티 페이지 (dirty page).md",
+                "file": "카프카/프로듀서의 내부 동작 원리와 구현.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "카프카/더티 페이지 (dirty page).md",
+                "file": "카프카/프로듀서의 내부 동작 원리와 구현.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "카프카/더티 페이지 (dirty page).md"
+                "file": "카프카/프로듀서의 내부 동작 원리와 구현.md"
               }
             }
           }
@@ -146,49 +161,50 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a665c8be1ee6dda2",
+  "active": "7da0ad7ff67aa155",
   "lastOpenFiles": [
+    "image/Pasted image 20231029173459.png",
+    "카프카/공부할 키워드.md",
+    "카프카/프로듀서의 내부 동작 원리와 구현.md",
+    "카프카/공부할_키워드.md",
+    "카프카/공부할.md",
+    "카프카/목록.md",
+    "카프카/위로.md",
+    "image/Pasted image 20231029162504.png",
+    "image/Pasted image 20231029160202.png",
+    "image/Pasted image 20231029155517.png",
+    "image/Pasted image 20231029154944.png",
+    "image/Pasted image 20231029154917.png",
+    "카프카/파티셔너.md",
+    "카프카/카프카 커넥트 (Kafka Connect).md",
+    "카프카/스키마 레지스트리.md",
+    "카프카/주키퍼(Zookeeper).md",
+    "카프카/리플리케이션 (replication).md",
+    "카프카/페이지 캐시 (pagecache).md",
     "카프카/카프카.md",
-    "카프카/더티 페이지 (dirty page).md",
-    "image/Pasted image 20231019212325.png",
-    "image/Pasted image 20231019212022.png",
+    "검색/AtlasMongo - autocomplete.md",
+    "검색/쇼핑 검색 랭킹 구성 요소.md",
+    "검색/사용자 검색 로그 저장.md",
+    "검색/형태소 분석 (Stemming).md",
+    "image/Pasted image 20231029145339.png",
+    "image/Pasted image 20231029144201.png",
+    "image/Pasted image 20231029143223.png",
+    "image/Pasted image 20231029141923.png",
+    "검색/HTTP API.md",
+    "검색/형태소 분석 > nori_tokenizer > user_dictionary.md",
+    "검색/Synonym.md",
+    "검색/Elasticsearch 색인과 텍스트 분석.md",
+    "kotlin/keyword/data class.md",
+    "kotlin/keyword/visibility modifiers (가시성 수정자).md",
+    "kotlin/keyword/Modules (모듈).md",
+    "kotlin/keyword/entity.md",
+    "image/Pasted image 20231024015051.png",
     "무제 폴더",
     "카프카",
-    "spring/스프링 핵심 원리 - 기본편/Bean Factory 와 Application Context.md",
-    "java/static.md",
-    "java/클래스 내부 구성 요소 3가지.md",
-    "java/클래스란 무엇인가?.md",
-    "java/Java String Pool.md",
-    "검색/무제 파일 1.md",
-    "검색/쇼핑 검색 랭킹 구성 요소.md",
     "java",
-    "검색/무제 파일.md",
-    "검색/사용자 검색 로그 저장.md",
-    "image/Pasted image 20231012231213.png",
-    "spring/스프링 핵심 원리 - 기본편/싱글톤.md",
-    "spring/스프링 핵심 원리 - 기본편/무제 파일.md",
-    "spring/스프링 핵심 원리 - 기본편/무제 파일 1.md",
     "검색",
-    "image/Pasted image 20231010235441.png",
-    "image/Pasted image 20231010003821.png",
-    "image/Pasted image 20231009230619.png",
-    "kotlin/keyword/visibility modifiers (가시성 수정자).md",
-    "spring/객체 지향.md",
-    "spring/스프링 핵심 원리 - 기본편/객체 지향과 좋은 객체 지향 설계 5가지 원칙.md",
-    "spring/스프링 핵심 원리 - 기본편/DIP는 어떻게 지켜질 수있을까?.md",
-    "spring/스프링 핵심 원리 - 기본편/스프링 컨테이너.md",
-    "spring/스프링 핵심 원리 - 기본편/스프링 빈 조회.md",
-    "전세계약전.md",
-    "image/Pasted image 20231008141825.png",
-    "spring/스프링 핵심 원리 - 기본편/Pasted image 20231008140620.png",
     "image",
-    "spring/스프링 핵심 원리 - 기본편/Pasted image 20231007131005.png",
-    "spring/스프링 핵심 원리 - 기본편/Pasted image 20231007130829.png",
-    "spring/스프링 핵심 원리 - 기본편/테스트/빈 조회.md",
-    "spring/스프링 핵심 원리 - 기본편/테스트/에러 검증.md",
     "spring/스프링 핵심 원리 - 기본편/테스트",
-    "spring/스프링 핵심 원리 - 기본편/IoC, DI 그리고 컨테이너.md",
-    "spring/keyword.md",
     "spring/스프링 핵심 원리 - 기본편",
     "spring",
     "kotlin/archtecture",
