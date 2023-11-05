@@ -4,36 +4,83 @@
     "type": "split",
     "children": [
       {
-        "id": "fd3a2bd7838c13b9",
+        "id": "fbd2638d6b16b9a5",
         "type": "tabs",
         "children": [
           {
-            "id": "7abf275e00ff45de",
+            "id": "015e3b10b91a4ddd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "카프카/공부할 키워드.md",
                 "mode": "source",
-                "backlinks": true,
                 "source": false
               }
             }
           },
           {
-            "id": "7da0ad7ff67aa155",
+            "id": "e9c1426c624a339f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "카프카/프로듀서의 내부 동작 원리와 구현.md",
+                "file": "카프카/공부할 키워드.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5e45b1429e01e7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "카프카/공부할 키워드.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9888016e47dd8476",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "카프카/<Kafka error> Messages are rejected since there are fewer in-sync replicas than required..md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f946e306c5f11d8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "카프카/in-sync replica (ISR).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d78b2ff811e3352",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "카프카/컨슈머의 내부 동작 원리와 구현.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -100,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "카프카/프로듀서의 내부 동작 원리와 구현.md",
+                "file": "카프카/<Kafka error> Messages are rejected since there are fewer in-sync replicas than required..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "카프카/프로듀서의 내부 동작 원리와 구현.md",
+                "file": "카프카/<Kafka error> Messages are rejected since there are fewer in-sync replicas than required..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "카프카/프로듀서의 내부 동작 원리와 구현.md"
+                "file": "카프카/<Kafka error> Messages are rejected since there are fewer in-sync replicas than required..md"
               }
             }
           }
@@ -161,20 +208,30 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7da0ad7ff67aa155",
+  "active": "9888016e47dd8476",
   "lastOpenFiles": [
-    "image/Pasted image 20231029173459.png",
+    "카프카/in-sync replica (ISR).md",
+    "카프카/<Kafka error> Messages are rejected since there are fewer in-sync replicas than required..md",
+    "image/Pasted image 20231105235106.png",
+    "image/Pasted image 20231105235043.png",
+    "카프카/컨슈머의 내부 동작 원리와 구현.md",
+    "image/Pasted image 20231105233507.png",
+    "image/Pasted image 20231105233240.png",
+    "image/Pasted image 20231105225004.png",
     "카프카/공부할 키워드.md",
+    "카프카/go/Poll.md",
+    "카프카/go",
+    "카프카/카프카 기본 개념과 구조.md",
     "카프카/프로듀서의 내부 동작 원리와 구현.md",
+    "image/Pasted image 20231029221956.png",
+    "image/Pasted image 20231029221206.png",
+    "image/Pasted image 20231029221038.png",
+    "image/Pasted image 20231029173459.png",
     "카프카/공부할_키워드.md",
     "카프카/공부할.md",
     "카프카/목록.md",
     "카프카/위로.md",
     "image/Pasted image 20231029162504.png",
-    "image/Pasted image 20231029160202.png",
-    "image/Pasted image 20231029155517.png",
-    "image/Pasted image 20231029154944.png",
-    "image/Pasted image 20231029154917.png",
     "카프카/파티셔너.md",
     "카프카/카프카 커넥트 (Kafka Connect).md",
     "카프카/스키마 레지스트리.md",
@@ -186,19 +243,9 @@
     "검색/쇼핑 검색 랭킹 구성 요소.md",
     "검색/사용자 검색 로그 저장.md",
     "검색/형태소 분석 (Stemming).md",
-    "image/Pasted image 20231029145339.png",
-    "image/Pasted image 20231029144201.png",
-    "image/Pasted image 20231029143223.png",
-    "image/Pasted image 20231029141923.png",
     "검색/HTTP API.md",
     "검색/형태소 분석 > nori_tokenizer > user_dictionary.md",
     "검색/Synonym.md",
-    "검색/Elasticsearch 색인과 텍스트 분석.md",
-    "kotlin/keyword/data class.md",
-    "kotlin/keyword/visibility modifiers (가시성 수정자).md",
-    "kotlin/keyword/Modules (모듈).md",
-    "kotlin/keyword/entity.md",
-    "image/Pasted image 20231024015051.png",
     "무제 폴더",
     "카프카",
     "java",
@@ -208,7 +255,6 @@
     "spring/스프링 핵심 원리 - 기본편",
     "spring",
     "kotlin/archtecture",
-    "kotlin/keyword",
     "무제 파일.canvas"
   ]
 }
