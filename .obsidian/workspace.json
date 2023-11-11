@@ -4,83 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "fbd2638d6b16b9a5",
+        "id": "1b136770437f9c1a",
         "type": "tabs",
         "children": [
           {
-            "id": "015e3b10b91a4ddd",
+            "id": "34041975501f3663",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "카프카/공부할 키워드.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e9c1426c624a339f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "카프카/공부할 키워드.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d5e45b1429e01e7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "카프카/공부할 키워드.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9888016e47dd8476",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "카프카/<Kafka error> Messages are rejected since there are fewer in-sync replicas than required..md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f946e306c5f11d8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "카프카/in-sync replica (ISR).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6d78b2ff811e3352",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "카프카/컨슈머의 내부 동작 원리와 구현.md",
-                "mode": "source",
-                "source": false
+                "file": "plan/할일 정리.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c46281a6b72018b2",
@@ -147,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "카프카/<Kafka error> Messages are rejected since there are fewer in-sync replicas than required..md",
+                "file": "plan/할일 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "카프카/<Kafka error> Messages are rejected since there are fewer in-sync replicas than required..md",
+                "file": "plan/할일 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,16 +123,23 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "카프카/<Kafka error> Messages are rejected since there are fewer in-sync replicas than required..md"
+                "file": "plan/할일 정리.md"
               }
+            }
+          },
+          {
+            "id": "d5ee7e9cf68c150b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,56 +148,59 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9888016e47dd8476",
+  "active": "34041975501f3663",
   "lastOpenFiles": [
+    "plan/23.11.6 plan.md",
+    "plan/할일 정리.md",
+    "Excalidraw/Drawing 2023-11-06 01.17.45.excalidraw.md",
+    "plan/kafka connect postgresql에서 elasticsearch data pipeline 생성.md",
+    "Excalidraw/무제 파일.md",
+    "plan",
+    "Excalidraw/Drawing 2023-11-06 01.18.16.excalidraw.md",
+    "README.md",
+    "무제 파일.canvas",
+    "Excalidraw",
+    "2023-11-06.md",
+    "java/Java String Pool.md",
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 메모리.md",
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/무제 파일.md",
+    "image/Pasted image 20230928031755.png",
+    "image/Pasted image 20230928023507.png",
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 중앙 처리 장치.md",
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 입력과 출력.md",
+    "카프카/go/기본 메서드.md",
+    "카프카/카프카 커넥트 (Kafka Connect).md",
+    "카프카/공부할 키워드.md",
+    "카프카/컨슈머의 내부 동작 원리와 구현.md",
+    "image/Pasted image 20231106001022.png",
     "카프카/in-sync replica (ISR).md",
     "카프카/<Kafka error> Messages are rejected since there are fewer in-sync replicas than required..md",
     "image/Pasted image 20231105235106.png",
     "image/Pasted image 20231105235043.png",
-    "카프카/컨슈머의 내부 동작 원리와 구현.md",
     "image/Pasted image 20231105233507.png",
     "image/Pasted image 20231105233240.png",
     "image/Pasted image 20231105225004.png",
-    "카프카/공부할 키워드.md",
-    "카프카/go/Poll.md",
     "카프카/go",
     "카프카/카프카 기본 개념과 구조.md",
     "카프카/프로듀서의 내부 동작 원리와 구현.md",
     "image/Pasted image 20231029221956.png",
     "image/Pasted image 20231029221206.png",
-    "image/Pasted image 20231029221038.png",
-    "image/Pasted image 20231029173459.png",
     "카프카/공부할_키워드.md",
     "카프카/공부할.md",
     "카프카/목록.md",
     "카프카/위로.md",
-    "image/Pasted image 20231029162504.png",
     "카프카/파티셔너.md",
-    "카프카/카프카 커넥트 (Kafka Connect).md",
-    "카프카/스키마 레지스트리.md",
-    "카프카/주키퍼(Zookeeper).md",
-    "카프카/리플리케이션 (replication).md",
-    "카프카/페이지 캐시 (pagecache).md",
-    "카프카/카프카.md",
-    "검색/AtlasMongo - autocomplete.md",
-    "검색/쇼핑 검색 랭킹 구성 요소.md",
-    "검색/사용자 검색 로그 저장.md",
-    "검색/형태소 분석 (Stemming).md",
-    "검색/HTTP API.md",
-    "검색/형태소 분석 > nori_tokenizer > user_dictionary.md",
-    "검색/Synonym.md",
-    "무제 폴더",
     "카프카",
     "java",
     "검색",
     "image",
     "spring/스프링 핵심 원리 - 기본편/테스트",
     "spring/스프링 핵심 원리 - 기본편",
-    "spring",
-    "kotlin/archtecture",
-    "무제 파일.canvas"
+    "spring"
   ]
 }

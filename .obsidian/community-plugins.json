@@ -2,5 +2,8 @@
   "cm-editor-syntax-highlight-obsidian",
   "highlightr-plugin",
   "obsidian-embedded-code-title",
-  "code-emitter"
+  "code-emitter",
+  "obsidian-excalidraw-plugin",
+  "table-editor-obsidian",
+  "obsidian-kanban"
 ]
