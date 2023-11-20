@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1b136770437f9c1a",
+        "id": "922b35f6977e0dd6",
         "type": "tabs",
         "children": [
           {
-            "id": "34041975501f3663",
+            "id": "04b4252c733be68b",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "plan/할일 정리.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "plan/할일 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "plan/할일 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "plan/할일 정리.md"
-              }
+              "state": {}
             }
           },
           {
@@ -153,10 +147,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "34041975501f3663",
+  "active": "04b4252c733be68b",
   "lastOpenFiles": [
-    "plan/23.11.6 plan.md",
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/7장. 데이터 구조와 처리.md",
+    "image/Pasted image 20231119184214.png",
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 메모리.md",
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 중앙 처리 장치.md",
+    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 입력과 출력.md",
+    "메모장/무제 파일.md",
     "plan/할일 정리.md",
+    "메모장",
+    "plan/23.11.6 plan.md",
     "Excalidraw/Drawing 2023-11-06 01.17.45.excalidraw.md",
     "plan/kafka connect postgresql에서 elasticsearch data pipeline 생성.md",
     "Excalidraw/무제 파일.md",
@@ -167,12 +168,8 @@
     "Excalidraw",
     "2023-11-06.md",
     "java/Java String Pool.md",
-    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 메모리.md",
-    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/무제 파일.md",
     "image/Pasted image 20230928031755.png",
     "image/Pasted image 20230928023507.png",
-    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 중앙 처리 장치.md",
-    "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 입력과 출력.md",
     "카프카/go/기본 메서드.md",
     "카프카/카프카 커넥트 (Kafka Connect).md",
     "카프카/공부할 키워드.md",
@@ -189,18 +186,14 @@
     "카프카/카프카 기본 개념과 구조.md",
     "카프카/프로듀서의 내부 동작 원리와 구현.md",
     "image/Pasted image 20231029221956.png",
-    "image/Pasted image 20231029221206.png",
     "카프카/공부할_키워드.md",
     "카프카/공부할.md",
     "카프카/목록.md",
-    "카프카/위로.md",
-    "카프카/파티셔너.md",
     "카프카",
     "java",
     "검색",
     "image",
     "spring/스프링 핵심 원리 - 기본편/테스트",
-    "spring/스프링 핵심 원리 - 기본편",
-    "spring"
+    "spring/스프링 핵심 원리 - 기본편"
   ]
 }
