@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "922b35f6977e0dd6",
+        "id": "e89bf740310c33c3",
         "type": "tabs",
         "children": [
           {
-            "id": "04b4252c733be68b",
+            "id": "c88b6bf8c2d9811f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -147,8 +147,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "04b4252c733be68b",
+  "active": "c88b6bf8c2d9811f",
   "lastOpenFiles": [
+    "spring/스프링 핵심 원리 - 기본편/@Qualifier.md",
+    "spring/스프링 핵심 원리 - 기본편/@Autowired.md",
+    "spring/스프링 핵심 원리 - 기본편/객체 지향과 좋은 객체 지향 설계 5가지 원칙.md",
+    "java/클래스란 무엇인가?.md",
+    "java/Java String Pool.md",
+    "java/static.md",
+    "java/클래스 내부 구성 요소 3가지.md",
     "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/7장. 데이터 구조와 처리.md",
     "image/Pasted image 20231119184214.png",
     "cs/한 권으로 읽는 컴퓨터 구조와 프로그래밍/4장. 컴퓨터 내부 구조 - 메모리.md",
@@ -167,7 +174,6 @@
     "무제 파일.canvas",
     "Excalidraw",
     "2023-11-06.md",
-    "java/Java String Pool.md",
     "image/Pasted image 20230928031755.png",
     "image/Pasted image 20230928023507.png",
     "카프카/go/기본 메서드.md",
@@ -183,12 +189,7 @@
     "image/Pasted image 20231105233240.png",
     "image/Pasted image 20231105225004.png",
     "카프카/go",
-    "카프카/카프카 기본 개념과 구조.md",
-    "카프카/프로듀서의 내부 동작 원리와 구현.md",
     "image/Pasted image 20231029221956.png",
-    "카프카/공부할_키워드.md",
-    "카프카/공부할.md",
-    "카프카/목록.md",
     "카프카",
     "java",
     "검색",
