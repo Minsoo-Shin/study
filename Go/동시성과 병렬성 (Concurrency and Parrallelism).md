@@ -227,7 +227,7 @@ func main() {
         select {
         case s := <-c:
             fmt.Println(s)
-        **case <-time.After(1 * time.Second):**
+        case <-time.After(1 * time.Second):
             fmt.Println("You're too slow.")
             return
         }
@@ -236,9 +236,9 @@ func main() {
 ```
 
 
-### Quit channel
+### Timeout for whole conversation using select 
 ---
-특정 시간이 끝나면 자동적으로
+특정 시간이 끝나면 모든 channel들을 타임 아웃 시킨다. 
 
 ```go
 func main() {
@@ -254,4 +254,134 @@ func main() {
         }
     }
 }
+//https://go.dev/play/p/4PRpAFtXRjz
 ```
+
+![[Pasted image 20231226153505.png]]
+
+## Google Search 예시 
+```go
+package main  
+  
+import (  
+"fmt"  
+"math/rand"  
+"time"  
+)  
+  
+var (  
+	Web = fakeSearch("web")  
+	Image = fakeSearch("image")  
+	Video = fakeSearch("video")  
+	  
+	Web1 = fakeSearch("web1")  
+	Web2 = fakeSearch("web2")  
+	Image1 = fakeSearch("image1")  
+	Image2 = fakeSearch("image2")  
+	Video1 = fakeSearch("video1")  
+	Video2 = fakeSearch("video2")  
+)  
+  
+type Result string  
+  
+type Search func(query string) Result  
+  
+func fakeSearch(kind string) Search {  
+	return func(query string) Result {  
+		time.Sleep(time.Duration(rand.Intn(100)) * time.Millisecond)  
+		return Result(fmt.Sprintf("%s result for %q\n", kind, query))  
+}  
+}  
+  
+func GoogleV1(query string) (results []Result) {  
+	results = append(results, Web(query))  
+	results = append(results, Image(query))  
+	results = append(results, Video(query))  
+	return results  
+}  
+  
+func GoogleV2(query string) (results []Result) {  
+	c := make(chan Result)  
+	go func() { c <- Web(query) }()  
+	go func() { c <- Image(query) }()  
+	go func() { c <- Video(query) }()  
+  
+	for i := 0; i < 3; i++ {  
+		result := <-c  
+		results = append(results, result)  
+	}  
+	return results  
+}  
+  
+func GoogleV2_1(query string) (results []Result) {  
+	c := make(chan Result)  
+	go func() { c <- Web(query) }()  
+	go func() { c <- Image(query) }()  
+	go func() { c <- Video(query) }()  
+  
+	timeout := time.After(80 * time.Millisecond)  
+	for i := 0; i < 3; i++ {  
+		select {  
+		case result := <-c:  
+			results = append(results, result)  
+		case <-timeout:  
+			fmt.Println("timed out")  
+		return  
+		}  
+	}  
+	return results  
+}  
+  
+func First(query string, replicas ...Search) Result {  
+	c := make(chan Result)  
+	searchReplica := func(i int) { c <- replicas[i](query) }  
+	for i := range replicas {  
+		go searchReplica(i)  
+	}  
+	return <-c  
+}  
+  
+func GoogleV3(query string) (results []Result) {  
+	c := make(chan Result)  
+	go func() { c <- First(query, Web1, Web2) }()  
+	go func() { c <- First(query, Image1, Image2) }()  
+	go func() { c <- First(query, Video1, Video2) }()  
+	  
+	timeout := time.After(80 * time.Millisecond)  
+	for i := 0; i < 3; i++ {  
+		select {  
+		case result := <-c:  
+			results = append(results, result)  
+		case <-timeout:  
+			fmt.Println("timed out")  
+		return  
+		}  
+	}  
+	return results  
+}  
+  
+func main() {  
+	var sum time.Duration  
+	for i := 0; i < 8; i++ {  
+		rand.Seed(time.Now().UnixNano())  
+		start := time.Now()  
+		_ = GoogleV3("golang")  
+		  
+		//_ = GoogleV2_1("golang")  
+		elapsed := time.Since(start)  
+		sum += elapsed  
+	}  
+	  
+	fmt.Println("평균은", sum/8)  
+  
+}
+```
+
+![[Pasted image 20240104010802.png]]
+
+
+v1에서는 순차적으로 쿼리를 실행해서 배열에 결과들을 담았다고 하면, 
+v2에서는 fan-in방식으로 비동기로 쿼리를 돌리고, 들어오는대로 결과를 담고 리턴한다. 
+이럴 때는 기존보다는 비동기로 한번에 쿼리를 실행하기 때문에 쿼리 + 네트워크 IO를 비동기적으로 진행할 수 있어서 성능면에서 우수하다. 
+V2.1은 너무 느린 쿼리있다고 가정했을 때, timeout을 둠으로써 서버의 안전성을 가져올 수 있다. 
+V3.0은 쿼리마다 여러 레플리카로 요청해서 빠르게 처리할 확률을 많이 높이는 듯 하다. 하지만 왜 3배나 차이가 날까? 
